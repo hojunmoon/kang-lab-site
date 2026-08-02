@@ -1,0 +1,274 @@
+/* ── Design tokens ─────────────────────────────────────────────
+   Signature: hero background evokes a layered-oxide cathode cross-
+   section (this lab's own core material) as thin translucent bands.
+   Palette avoids the default "cream + terracotta" AI look — pale
+   sage paper, graphite ink, cobalt (cathode) + copper (collector)
+   accents, a nod to the lab's own electrode chemistry.
+------------------------------------------------------------------ */
+:root {
+  --ink: #1e2420;
+  --paper: #eaebe2;
+  --panel: #f6f6f0;
+  --cobalt: #2e5c86;
+  --copper: #b5762e;
+  --line: #cbcfc0;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, "Malgun Gothic", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--cobalt); }
+a:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--cobalt);
+  outline-offset: 3px;
+}
+
+/* ── Hero ─────────────────────────────────────────────────── */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 4.5rem 1.75rem 2.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero__layers {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.layer {
+  position: absolute;
+  left: -4%;
+  height: 15%;
+  width: 70%;
+  border-radius: 0 999px 999px 0;
+  background: var(--cobalt);
+  opacity: 0.08;
+  transform: translateX(-30px);
+  animation: slide-in 900ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+.layer--1 { top: 8%;  width: 62%; animation-delay: 0ms;   }
+.layer--2 { top: 26%; width: 78%; animation-delay: 90ms;  background: var(--copper); opacity: 0.07; }
+.layer--3 { top: 46%; width: 54%; animation-delay: 180ms; }
+.layer--4 { top: 66%; width: 70%; animation-delay: 270ms; background: var(--copper); opacity: 0.06; }
+
+@keyframes slide-in {
+  to { transform: translateX(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .layer { animation: none; transform: none; }
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  max-width: 46rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--cobalt);
+}
+
+.lab-name {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  letter-spacing: -0.01em;
+}
+
+.tagline {
+  margin: 0;
+  max-width: 38rem;
+  font-size: 1.05rem;
+  color: color-mix(in srgb, var(--ink) 80%, transparent);
+}
+
+/* ── Stats strip ──────────────────────────────────────────── */
+.stats {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 2.5rem;
+  margin: 2.75rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  max-width: 46rem;
+}
+.stat { margin: 0; }
+.stat dt {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--ink) 55%, transparent);
+}
+.stat dd {
+  margin: 0.2rem 0 0;
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* ── Publications ─────────────────────────────────────────── */
+.pubs {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 3rem 1.75rem 2rem;
+}
+
+.pubs__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.pubs__head h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: color-mix(in srgb, var(--ink) 65%, transparent);
+}
+.filter select {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--panel);
+  color: var(--ink);
+}
+
+.pubs__loading,
+.pubs__empty {
+  color: color-mix(in srgb, var(--ink) 55%, transparent);
+  font-size: 0.95rem;
+}
+
+.year-group {
+  margin-bottom: 1.75rem;
+}
+.year-group__label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: color-mix(in srgb, var(--ink) 55%, transparent);
+}
+.year-group__label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+.pub {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 0.9rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.pub:last-child { border-bottom: none; }
+
+.pub__title {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.pub__title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+.pub__title a:hover { color: var(--cobalt); text-decoration: underline; }
+
+.pub__meta {
+  margin: 0;
+  font-size: 0.86rem;
+  color: color-mix(in srgb, var(--ink) 60%, transparent);
+}
+
+/* citation-count "cell" badge — a small nod to a coin-cell battery */
+.pub__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.1rem;
+  height: 2.1rem;
+  padding: 0 0.35rem;
+  border-radius: 999px;
+  background: var(--cobalt);
+  border: 2px solid var(--copper);
+  color: var(--panel);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+.pub__badge[data-zero="true"] {
+  background: transparent;
+  color: color-mix(in srgb, var(--ink) 45%, transparent);
+  border-color: var(--line);
+}
+
+/* ── Footer ───────────────────────────────────────────────── */
+.site-footer {
+  max-width: 46rem;
+  margin: 1rem auto 3rem;
+  padding: 1.25rem 1.75rem 0;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  justify-content: space-between;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: color-mix(in srgb, var(--ink) 55%, transparent);
+}
+.site-footer a { color: var(--cobalt); text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+
+@media (max-width: 560px) {
+  .hero { padding: 3.5rem 1.25rem 2rem; }
+  .stats { gap: 1.5rem; }
+  .pubs { padding: 2.25rem 1.25rem 1.5rem; }
+  .pub { grid-template-columns: 1fr; }
+  .pub__badge { justify-self: start; }
+}
