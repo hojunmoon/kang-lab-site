@@ -4,6 +4,7 @@
 
 const listEl = document.getElementById("pubs-list");
 const yearFilterEl = document.getElementById("year-filter");
+const searchInputEl = document.getElementById("search-input");
 const updatedLineEl = document.getElementById("updated-line");
 const scholarLinkEl = document.getElementById("scholar-link");
 
@@ -77,12 +78,21 @@ function populateYearFilter(publications) {
   }
 }
 
-yearFilterEl.addEventListener("change", () => {
-  const value = yearFilterEl.value;
-  const filtered =
-    value === "all" ? allPublications : allPublications.filter((p) => p.year === value);
+function applyFilters() {
+  const year = yearFilterEl.value;
+  const query = searchInputEl.value.trim().toLowerCase();
+
+  const filtered = allPublications.filter((pub) => {
+    const matchesYear = year === "all" || pub.year === year;
+    const matchesQuery = !query || (pub.title || "").toLowerCase().includes(query);
+    return matchesYear && matchesQuery;
+  });
+
   renderPublications(filtered);
-});
+}
+
+yearFilterEl.addEventListener("change", applyFilters);
+searchInputEl.addEventListener("input", applyFilters);
 
 async function init() {
   try {
