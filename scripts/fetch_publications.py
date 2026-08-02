@@ -13,7 +13,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 
 # ── 설정 ──────────────────────────────────────────────────────────────
 # Google Scholar 프로필 URL에서 user=XXXXXXXX 부분이 SCHOLAR_ID 입니다.
@@ -34,7 +34,22 @@ def build_scholar_url(scholar_id: str, author_pub_id: str) -> str:
     )
 
 
+def setup_proxy() -> None:
+    """GitHub Actions 서버 IP는 Google Scholar에 자주 차단당하기 때문에,
+    무료 프록시를 거쳐 우회를 시도합니다. (몇 분 걸릴 수 있고, 100% 보장되진 않습니다.)
+    """
+    print("프록시 준비 중... (최대 몇 분 걸릴 수 있어요)")
+    try:
+        pg = ProxyGenerator()
+        pg.FreeProxies()
+        scholarly.use_proxy(pg)
+        print("프록시 연결 성공, 이어서 진행합니다.")
+    except Exception as e:  # 프록시를 못 구해도 일단 직접 연결로 시도는 해봅니다.
+        print(f"프록시 설정 실패({e}) — 직접 연결로 시도합니다.")
+
+
 def fetch() -> dict:
+    setup_proxy()
     print(f"[1/2] {SCHOLAR_ID} 저자 정보를 가져오는 중...")
     author = scholarly.search_author_id(SCHOLAR_ID)
     # sections=['publications']만 채우면 논문마다 추가 요청을 보내지 않고
