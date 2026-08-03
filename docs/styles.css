@@ -84,7 +84,6 @@ button:focus-visible {
   display: flex;
   gap: 2.5rem;
   margin: 0;
-  max-width: 46rem;
 }
 .stat { margin: 0; }
 .stat dt {
@@ -103,8 +102,6 @@ button:focus-visible {
 
 /* ── Publications ─────────────────────────────────────────── */
 .pubs {
-  max-width: 46rem;
-  margin: 0 auto;
   padding: 3rem 1.75rem 2rem;
 }
 
@@ -247,8 +244,7 @@ button:focus-visible {
 
 /* ── Footer ───────────────────────────────────────────────── */
 .site-footer {
-  max-width: 46rem;
-  margin: 1rem auto 3rem;
+  margin: 1rem 0 3rem;
   padding: 1.25rem 1.75rem 0;
   border-top: 1px solid var(--line);
   display: flex;
