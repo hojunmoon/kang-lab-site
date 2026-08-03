@@ -24,6 +24,11 @@ import scholarly.publication_parser as publication_parser
 # 프로필입니다. 본인 개인 프로필로 바꾸고 싶다면 이 값만 교체하면 됩니다.
 SCHOLAR_ID = "JHrp3gcAAAAJ"
 
+# 저자 이름이 잘린 논문을 개별 페이지로 보강하는 시도 횟수 상한.
+# 논문 수가 많은 저자는 이 기능 하나 때문에 전체 실행 시간이 너무 길어질
+# 수 있어서, 최대 이만큼만 시도하고 나머지는 잘린 이름 그대로 둡니다.
+MAX_AUTHOR_EXPANSIONS = 40
+
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "docs" / "publications.json"
 
 
@@ -67,12 +72,15 @@ def setup_proxy() -> None:
         print(f"프록시 설정 실패({e}) — 직접 연결로 시도합니다.")
 
 
-def expand_truncated_authors(pub: dict, authors_text: str) -> str:
+def expand_truncated_authors(pub: dict, authors_text: str, expanded_so_far: int) -> str:
     """목록 페이지에서 저자 이름이 '…' 로 잘려있는 논문만, 그 논문의 개별
     페이지를 한 번 더 열어 전체 저자 목록을 가져옵니다. (실패해도 스크립트가
-    멈추지 않고 잘린 이름을 그대로 씁니다.)
+    멈추지 않고 잘린 이름을 그대로 씁니다. MAX_AUTHOR_EXPANSIONS를 넘으면
+    더 이상 시도하지 않습니다.)
     """
     if not authors_text.rstrip().endswith(("…", "...")):
+        return authors_text
+    if expanded_so_far >= MAX_AUTHOR_EXPANSIONS:
         return authors_text
     try:
         filled = scholarly.fill(pub)
@@ -101,13 +109,18 @@ def fetch() -> dict:
     pubs_raw = author.get("publications", [])
     print(f"[2/2] 논문 {len(pubs_raw)}건 정리 중...")
 
+    # 여기부터는 부가 기능(저자 보강)이라, 막힌 논문 하나 때문에 오래
+    # 기다리지 않도록 재시도 횟수와 타임아웃을 줄입니다.
+    scholarly.set_retries(2)
+    scholarly.set_timeout(10)
+
     publications = []
     expanded_count = 0
     for pub in pubs_raw:
         bib = pub.get("bib", {})
         author_pub_id = pub.get("author_pub_id", "")
         authors_text = bib.get("author", "")
-        expanded = expand_truncated_authors(pub, authors_text)
+        expanded = expand_truncated_authors(pub, authors_text, expanded_count)
         if expanded != authors_text:
             expanded_count += 1
         publications.append(
@@ -121,7 +134,7 @@ def fetch() -> dict:
             }
         )
     if expanded_count:
-        print(f"  ↳ 저자 목록이 잘려있던 논문 {expanded_count}건, 전체 이름으로 보강함")
+        print(f"  ↳ 저자 목록이 잘려있던 논문 중 {expanded_count}건, 전체 이름으로 보강함 (상한 {MAX_AUTHOR_EXPANSIONS}건)")
 
     # 연도 내림차순 정렬 (연도 정보 없는 항목은 맨 뒤로)
     publications.sort(key=lambda p: p["year"] or "0", reverse=True)
