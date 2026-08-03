@@ -14,6 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from scholarly import scholarly, ProxyGenerator
+import scholarly.publication_parser as publication_parser
 
 # ── 설정 ──────────────────────────────────────────────────────────────
 # Google Scholar 프로필 URL에서 user=XXXXXXXX 부분이 SCHOLAR_ID 입니다.
@@ -34,6 +35,24 @@ def build_scholar_url(scholar_id: str, author_pub_id: str) -> str:
     )
 
 
+def patch_author_names() -> None:
+    """scholarly는 논문 목록 페이지를 가져올 때 제목/연도/저널만 파싱하고
+    저자 이름은 버립니다 (개별 논문 페이지를 또 열어야 얻을 수 있는 구조라서).
+    이미 받아온 같은 HTML 안에 저자 이름 줄이 그대로 들어있으므로,
+    추가 요청 없이 그 줄만 더 읽어오도록 파서를 살짝 보강합니다.
+    """
+    original = publication_parser.PublicationParser._citation_pub
+
+    def patched(self, __data, publication):
+        publication = original(self, __data, publication)
+        gray_lines = __data.find_all("div", class_="gs_gray")
+        if gray_lines:
+            publication["bib"]["author"] = gray_lines[0].text.strip()
+        return publication
+
+    publication_parser.PublicationParser._citation_pub = patched
+
+
 def setup_proxy() -> None:
     """GitHub Actions 서버 IP는 Google Scholar에 자주 차단당하기 때문에,
     무료 프록시를 거쳐 우회를 시도합니다. (몇 분 걸릴 수 있고, 100% 보장되진 않습니다.)
@@ -49,6 +68,7 @@ def setup_proxy() -> None:
 
 
 def fetch() -> dict:
+    patch_author_names()
     setup_proxy()
     print(f"[1/2] {SCHOLAR_ID} 저자 정보를 가져오는 중...")
     author = scholarly.search_author_id(SCHOLAR_ID)
