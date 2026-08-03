@@ -278,7 +278,8 @@ button:focus-visible {
 
 @media (max-width: 560px) {
   .hero { padding: 2.25rem 1.25rem 1.75rem; }
-  .stats { gap: 1.5rem; }
+  .stats { gap: 1.25rem; }
+  .stat { padding-left: 1rem; }
   .pubs { padding: 2.25rem 1.25rem 1.5rem; }
   .pub { grid-template-columns: 1fr; }
   .pub__badge { justify-self: start; }
