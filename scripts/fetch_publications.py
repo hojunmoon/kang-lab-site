@@ -127,7 +127,7 @@ def fetch() -> dict:
             {
                 "title": bib.get("title", ""),
                 "authors": expanded,
-                "year": bib.get("pub_year", ""),
+                "year": str(bib.get("pub_year") or ""),
                 "venue": bib.get("citation", bib.get("journal", "")),
                 "num_citations": pub.get("num_citations", 0),
                 "link": build_scholar_url(SCHOLAR_ID, author_pub_id) if author_pub_id else "",
