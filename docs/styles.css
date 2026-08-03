@@ -214,10 +214,17 @@ button:focus-visible {
 }
 .pub__title a:hover { color: var(--cobalt); text-decoration: underline; }
 
-.pub__meta {
+.pub__venue {
   margin: 0;
   font-size: 0.86rem;
   color: color-mix(in srgb, var(--ink) 60%, transparent);
+}
+
+.pub__authors {
+  margin: 0.2rem 0 0;
+  font-size: 0.82rem;
+  font-family: var(--font-mono);
+  color: color-mix(in srgb, var(--ink) 50%, transparent);
 }
 
 /* citation-count "cell" badge — a small nod to a coin-cell battery */
