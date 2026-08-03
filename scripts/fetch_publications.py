@@ -67,6 +67,23 @@ def setup_proxy() -> None:
         print(f"프록시 설정 실패({e}) — 직접 연결로 시도합니다.")
 
 
+def expand_truncated_authors(pub: dict, authors_text: str) -> str:
+    """목록 페이지에서 저자 이름이 '…' 로 잘려있는 논문만, 그 논문의 개별
+    페이지를 한 번 더 열어 전체 저자 목록을 가져옵니다. (실패해도 스크립트가
+    멈추지 않고 잘린 이름을 그대로 씁니다.)
+    """
+    if not authors_text.rstrip().endswith(("…", "...")):
+        return authors_text
+    try:
+        filled = scholarly.fill(pub)
+        full_author = filled.get("bib", {}).get("author", "")
+        if full_author:
+            return full_author.replace(" and ", ", ")
+    except Exception as e:
+        print(f"  ↳ 저자 전체 목록 가져오기 실패, 잘린 목록 유지: {e}")
+    return authors_text
+
+
 def fetch() -> dict:
     patch_author_names()
     setup_proxy()
@@ -85,19 +102,26 @@ def fetch() -> dict:
     print(f"[2/2] 논문 {len(pubs_raw)}건 정리 중...")
 
     publications = []
+    expanded_count = 0
     for pub in pubs_raw:
         bib = pub.get("bib", {})
         author_pub_id = pub.get("author_pub_id", "")
+        authors_text = bib.get("author", "")
+        expanded = expand_truncated_authors(pub, authors_text)
+        if expanded != authors_text:
+            expanded_count += 1
         publications.append(
             {
                 "title": bib.get("title", ""),
-                "authors": bib.get("author", ""),
+                "authors": expanded,
                 "year": bib.get("pub_year", ""),
                 "venue": bib.get("citation", bib.get("journal", "")),
                 "num_citations": pub.get("num_citations", 0),
                 "link": build_scholar_url(SCHOLAR_ID, author_pub_id) if author_pub_id else "",
             }
         )
+    if expanded_count:
+        print(f"  ↳ 저자 목록이 잘려있던 논문 {expanded_count}건, 전체 이름으로 보강함")
 
     # 연도 내림차순 정렬 (연도 정보 없는 항목은 맨 뒤로)
     publications.sort(key=lambda p: p["year"] or "0", reverse=True)
