@@ -7,11 +7,11 @@
 ------------------------------------------------------------------ */
 :root {
   --ink: #1e2420;
-  --paper: #eaebe2;
-  --panel: #f6f6f0;
+  --paper: #eeeeec;
+  --panel: #f7f7f6;
   --cobalt: #2e5c86;
   --copper: #b5762e;
-  --line: #cbcfc0;
+  --line: #d8d8d5;
 
   --font-display: "Fraunces", Georgia, serif;
   --font-body: "Inter", -apple-system, "Malgun Gothic", sans-serif;
