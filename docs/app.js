@@ -50,7 +50,8 @@ function renderPublications(publications) {
             <div class="pub">
               <div>
                 <p class="pub__title">${titleHtml}</p>
-                <p class="pub__meta">${escapeHtml(pub.venue)}${pub.venue && pub.authors ? " · " : ""}${escapeHtml(pub.authors)}</p>
+                <p class="pub__venue">${escapeHtml(pub.venue)}</p>
+                ${pub.authors ? `<p class="pub__authors">${escapeHtml(pub.authors)}</p>` : ""}
               </div>
               <span class="pub__badge" data-zero="${citations === 0}" title="피인용 ${citations}회">${citations}</span>
             </div>`;
