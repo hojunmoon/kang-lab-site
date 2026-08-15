@@ -1,10 +1,10 @@
 {
   "name": "Misook Kang",
   "affiliation": "Yeungnam University",
-  "citedby": 16550,
+  "citedby": 16565,
   "hindex": 67,
-  "i10index": 337,
-  "updated": "2026-08-14",
+  "i10index": 338,
+  "updated": "2026-08-15",
   "publications": [
     {
       "title": "Waste-to-wealth photocatalysis: Red mud-boosted g-C₃N₄/TiO₂ for enhanced hydrogen production and pollutant degradation",
@@ -16,7 +16,7 @@
     },
     {
       "title": "Methane-pyrolysis-driven interfacial carbon reconstruction for durable high-kinetics silicon anodes with extension to end-of-life photovoltaic silicon",
-      "authors": "Younghwon Kim, Hyunsub Shin, Buseong Kim, Geunhyeong Kim, Harim Jeong, Younghwan Im, Byeong Sub Kwak, Jeong Yeon Do, Namgyu Son, Hojun Moon, Misook Kang",
+      "authors": "Y Kim, H Shin, B Kim, G Kim, H Jeong, Y Im, BS Kwak, JY Do, N Son, ...",
       "year": "2026",
       "venue": "Chemical Engineering Journal 545, 179776, 2026",
       "num_citations": 0,
@@ -35,7 +35,7 @@
       "authors": "GR Reddy, TSK Sharma, M Kang",
       "year": "2026",
       "venue": "Journal of Power Sources 687, 240564, 2026",
-      "num_citations": 2,
+      "num_citations": 3,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:yY3RG6sOEgwC"
     },
     {
@@ -51,7 +51,7 @@
       "authors": "GR Reddy, L Solaiappan, Y Kim, M Kang",
       "year": "2026",
       "venue": "Journal of Energy Storage 170, 122807, 2026",
-      "num_citations": 3,
+      "num_citations": 4,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:sJPMR1oEGYQC"
     },
     {
@@ -235,7 +235,7 @@
       "authors": "GR Reddy, M Kang",
       "year": "2025",
       "venue": "Advances in Industrial and Engineering Chemistry 1 (1), 21, 2025",
-      "num_citations": 22,
+      "num_citations": 23,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:z8nqeaKD1nsC"
     },
     {
@@ -251,7 +251,7 @@
       "authors": "KK Mandari, RR Eragari, M Kang",
       "year": "2025",
       "venue": "ACS Applied Energy Materials 8 (21), 16352–16363, 2025",
-      "num_citations": 9,
+      "num_citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:jtI9f0ekYq0C"
     },
     {
@@ -323,7 +323,7 @@
       "authors": "N Parvin, D Merum, M Kang, SW Joo, JH Jung, TK Mandal",
       "year": "2025",
       "venue": "Journal of Materials Chemistry A 13 (30), 24320-24386, 2025",
-      "num_citations": 101,
+      "num_citations": 102,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:RtRctb2lSbAC"
     },
     {
@@ -331,7 +331,7 @@
       "authors": "GR Reddy, MA Ghanem, SW Joo, M Kang",
       "year": "2025",
       "venue": "Chemical Engineering Journal 517, 164418, 2025",
-      "num_citations": 25,
+      "num_citations": 26,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:hvmnpdAuIbkC"
     },
     {
@@ -339,7 +339,7 @@
       "authors": "KK Mandari, M Kang",
       "year": "2025",
       "venue": "Advances in Industrial and Engineering Chemistry 1 (1), 14, 2025",
-      "num_citations": 22,
+      "num_citations": 23,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:t-hv7AR41mYC"
     },
     {
@@ -347,7 +347,7 @@
       "authors": "G Rajasekhara Reddy, GR Dillip, MA Ghanem, SW Joo, M Kang",
       "year": "2025",
       "venue": "Energy & Fuels 39 (30), 14872–14893, 2025",
-      "num_citations": 22,
+      "num_citations": 23,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:BmWJbWwHJAwC"
     },
     {
@@ -384,7 +384,7 @@
     },
     {
       "title": "Facile Synthesis of rGO-Ag and rGO-Au Nanocomposites and their Applications in Biosensors and Enhanced Photocatalytic Properties",
-      "authors": "P Rajkumar, V Velmurugan, R Kumutha, J Jayaprakash, A Raja, Nouf H Alotaibi",
+      "authors": "P Rajkumar, V Velmurugan, R Kumutha, J Jayaprakash, A Raja, ...",
       "year": "2025",
       "venue": "Physica B: Condensed Matter 705, 417081, 2025",
       "num_citations": 3,
@@ -419,7 +419,7 @@
       "authors": "RK Chava, B Chandu, YA Lee, N Puvvada, M Kang",
       "year": "2025",
       "venue": "Advances in Industrial and Engineering Chemistry 1 (1), 4, 2025",
-      "num_citations": 6,
+      "num_citations": 7,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:ZqE1mSdD_DYC"
     },
     {
@@ -467,7 +467,7 @@
       "authors": "Soheil Sadr, Ashkan Hajjafari, Narges Lotfalizadeh, Mohammadhassan Lotfalizadeh, Sara Safaeian Laein, Amir Mohammad Abbasi, Parian Poorjafari Jafroodi, Elahe Roohbaksh Amooli Moghadam, Abbas Rahdar, Sonia Fathi-karkan, Zihab Sohbatzadeh, Hassan Borji, Misook Kang, Sadanand Pandey",
       "year": "2025",
       "venue": "Journal of Drug Delivery Science and Technology 104, 106543, 2025",
-      "num_citations": 18,
+      "num_citations": 19,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:MIg0yeAD4ggC"
     },
     {
@@ -488,7 +488,7 @@
     },
     {
       "title": "Dual function of Zn-doped NiO nanoparticles in high sensing of triethylamine gas and rhodamine B dye degradation",
-      "authors": "S Sudha, A Raja, P Prameela, A Sivakami, S Cholan, Misook Kang, B Gokul, Samar A Aldossari",
+      "authors": "S Sudha, A Raja, P Prameela, A Sivakami, S Cholan, M Kang, B Gokul, ...",
       "year": "2024",
       "venue": "Journal of Materials Science: Materials in Electronics 35 (35), 2212, 2024",
       "num_citations": 3,
@@ -555,7 +555,7 @@
       "authors": "R Annamalai, O Alduhaish, M Kang, Y Im",
       "year": "2024",
       "venue": "Carbon 230, 119671, 2024",
-      "num_citations": 11,
+      "num_citations": 12,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:C33y2ycGS3YC"
     },
     {
@@ -712,7 +712,7 @@
     },
     {
       "title": "Enhanced Oxygen Transfer Rate of Chemical Looping Combustion through Lattice Expansion on CuMn2O4 Oxygen Carrier",
-      "authors": "Boseok Seo, Jimin Lyu, Namgyu Son, Misook Kang, No-Kuk Park, Seung Jong Lee, Jin Wook Lee, Yongseung Yun, Ho-Jung Ryu, Jeom-In Baek, Dohyung Kang, Minkyu Kim",
+      "authors": "B Seo, J Lyu, N Son, M Kang, NK Park, SJ Lee, JW Lee, Y Yun, HJ Ryu, ...",
       "year": "2023",
       "venue": "Sustainable Energy & Fuels 7 (22), 5422-5432, 2023",
       "num_citations": 7,
@@ -739,7 +739,7 @@
       "authors": "A Raja, N Son, YI Kim, M Kang",
       "year": "2023",
       "venue": "Journal of Colloid and Interface Science 647, 104-114, 2023",
-      "num_citations": 38,
+      "num_citations": 39,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:JTqpx9DYBaYC"
     },
     {
@@ -1127,8 +1127,8 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:CdxZDUztZiMC"
     },
     {
-      "title": "Perlite impregnated with HPA/α-Fe2O3: magnetically separable catalyst for the synthesis of 3, 3, 6, 6-tetramethyl-9-substituted-3, 4, 6, 7-tetrahydro-2H-xanthene-1, 8-(5H, 9H)-diones",
-      "authors": "Komalavalli Lakshminarayanan, Amutha Parasuraman, Manawwer Alam, Naushad Ahmad, Balu Krishnakumar, Annamalai Raja, Misook Kang",
+      "title": "Perlite impregnated with HPA/α-Fe2O3: Magnetically separable catalyst for the synthesis of 3, 3, 6, 6-tetramethyl-9-substituted-3, 4, 6, 7-tetrahydro-2H-xanthene-1, 8-(5H, 9H …",
+      "authors": "K Lakshminarayanan, A Parasuraman, M Alam, N Ahmad, ...",
       "year": "2021",
       "venue": "Journal of Physics and Chemistry of Solids 157, 110192, 2021",
       "num_citations": 3,
@@ -1256,7 +1256,7 @@
     },
     {
       "title": "A hyaluronic acid functionalized self-nano-emulsifying drug delivery system (SNEDDS) for enhancement in ciprofloxacin targeted delivery against intracellular infection",
-      "authors": "Rabia Arshad, Tanveer A Tabish, Maria Hassan Kiani, Ibrahim M Ibrahim, Gul Shahnaz, Abbas Rahdar, Misook Kang, Sadanand Pandey",
+      "authors": "R Arshad, TA Tabish, MH Kiani, IM Ibrahim, G Shahnaz, A Rahdar, ...",
       "year": "2021",
       "venue": "Nanomaterials 11 (5), 1086, 2021",
       "num_citations": 83,
@@ -1311,8 +1311,8 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:CaZNVDsoPx4C"
     },
     {
-      "title": "Plasmon-induced hot electron amplification and effective charge separation by Au nanoparticles sandwiched between copper titanium phosphate nanosheets and improved carbon dioxide conversion to methane",
-      "authors": "Jeong Yeon Do, Namgyu Son, Rama Krishna Chava, Kotesh Kumar Mandari, Sadanand Pandey, Vignesh Kumaravel, TS Senthil, Sang Woo Joo, Misook Kang",
+      "title": "Plasmon-Induced Hot Electron Amplification and Effective Charge Separation by Au Nanoparticles Sandwiched between Copper Titanium Phosphate Nanosheets and Improved Carbon …",
+      "authors": "JY Do, N Son, RK Chava, KK Mandari, S Pandey, V Kumaravel, ...",
       "year": "2020",
       "venue": "ACS Sustainable Chemistry & Engineering 8 (50), 18646–18660, 2020",
       "num_citations": 24,
@@ -1328,7 +1328,7 @@
     },
     {
       "title": "Fabrication of effective visible-light-driven ternary Z-scheme ZnO-Ag-BiVO4 heterostructured photocatalyst for hexavalent chromium reduction",
-      "authors": "A Raja, P Rajasekaran, B Vishnu, K Selvakumar, Jeong Yeon Do, M Swaminathan, Misook Kang",
+      "authors": "A Raja, P Rajasekaran, B Vishnu, K Selvakumar, JY Do, M Swaminathan, ...",
       "year": "2020",
       "venue": "Separation and Purification Technology 252, 117446, 2020",
       "num_citations": 71,
@@ -1395,7 +1395,7 @@
       "authors": "H Park, BH Park, J Choi, S Kim, T Kim, YS Youn, N Son, JH Kim, M Kang",
       "year": "2020",
       "venue": "Nanomaterials 10 (9), 1727, 2020",
-      "num_citations": 90,
+      "num_citations": 91,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:jgBuDB5drN8C"
     },
     {
@@ -1664,7 +1664,7 @@
     },
     {
       "title": "Photocatalytic hydrogen production: role of sacrificial reagents on the activity of oxide, carbon, and sulfide catalysts",
-      "authors": "Vignesh Kumaravel, Muhammad Danyal Imam, Ahmed Badreldin, Rama Krishna Chava, Jeong Yeon Do, Misook Kang, Ahmed Abdel-Wahab",
+      "authors": "V Kumaravel, MD Imam, A Badreldin, RK Chava, JY Do, M Kang, ...",
       "year": "2019",
       "venue": "Catalysts 9 (3), 276, 2019",
       "num_citations": 468,
@@ -1883,7 +1883,7 @@
       "authors": "Y Im, JH Lee, BS Kwak, JY Do, M Kang",
       "year": "2018",
       "venue": "Catalysis Today 303, 168-176, 2018",
-      "num_citations": 56,
+      "num_citations": 57,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:ruyezt5ZtCIC"
     },
     {
@@ -2384,7 +2384,7 @@
     },
     {
       "title": "Effectively CO2 photoreduction to CH4 by the synergistic effects of Ca and Ti on Ca-loaded TiSiMCM-41 mesoporous photocatalytic systems",
-      "authors": "Seung Won Jo, Byeong Sub Kwak, Kang Min Kim, Jeong Yeon Do, No-Kuk Park, Si Ok Ryu, Ho-Jung Ryu, Jeom-In Baek, Misook Kang",
+      "authors": "SW Jo, BS Kwak, KM Kim, JY Do, NK Park, SO Ryu, HJ Ryu, JI Baek, ...",
       "year": "2015",
       "venue": "Applied Surface Science 355, 891-901, 2015",
       "num_citations": 29,
@@ -2744,7 +2744,7 @@
     },
     {
       "title": "Synthesis of Core@shell structured CuFeS2@TiO2 magnetic nanomaterial and Its application for hydrogen production by methanol aqueous solution photosplitting",
-      "authors": "Misook Kang, Sora, Kwak, Byeong Sub, Park, Minkyu, Jeong, Kyung Mi, Park, Sun-Min, Kang",
+      "authors": "M Kang, Sora, Kwak, Byeong Sub, Park, Minkyu, Jeong, Kyung Mi, Park, Sun-Min ...",
       "year": "2014",
       "venue": "Bulletin of the Korean Chemical Society 35 (9), 2813-2817, 2014",
       "num_citations": 15,
@@ -3563,7 +3563,7 @@
       "authors": "M Kang",
       "year": "2005",
       "venue": "Materials Letters 59 (24-25), 3122-3127, 2005",
-      "num_citations": 69,
+      "num_citations": 70,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:blknAaTinKkC"
     },
     {
@@ -3656,7 +3656,7 @@
     },
     {
       "title": "Session 6: Application of dielectric barrier discharge plasma in photo-catalytic decomposition of benzene",
-      "authors": "Ban Ji-Young, Son Yeon-Hee, Lee Byung-Yong, Lee Sung-Chul, Kang Misook, Choung Suk-Jin",
+      "authors": "B Ji-Young, S Yeon-Hee, L Byung-Yong, L Sung-Chul, K Misook, ...",
       "year": "2004",
       "venue": "",
       "num_citations": 0,
@@ -3744,7 +3744,7 @@
     },
     {
       "title": "Design of two types of fluidized photo reactors and their photo-catalytic performances for degradation of methyl orange",
-      "authors": "JH Lee, W Nam, M Kang, GY Han, KJ Yoon, MS Kim, K Ogino, S Miyata, ...",
+      "authors": "Jong Ho Lee, Wooseok Nam, Misook Kang, Gui Young Han, Ki June Yoon, Moon-Sun Kim, Kenji Ogino, Seizo Miyata, Suk-Jin Choung",
       "year": "2003",
       "venue": "Applied Catalysis A: General 244 (1), 49-57, 2003",
       "num_citations": 62,
@@ -3760,7 +3760,7 @@
     },
     {
       "title": "Preparation of TiO2 film by the MOCVD method and analysis for decomposition of trichloroethylene using in situ FT-IR spectroscopy",
-      "authors": "M Kang, JH Lee, SH Lee, CH Chung, KJ Yoon, K Ogino, S Miyata, ...",
+      "authors": "Misook Kang, Jong Ho Lee, Sang-Hyeun Lee, Chan-Hwa Chung, Ki June Yoon, Kenji Ogino, Seizo Miyata, Suk-Jin Choung",
       "year": "2003",
       "venue": "Journal of Molecular Catalysis A: Chemical 193 (1-2), 273-283, 2003",
       "num_citations": 53,
@@ -3976,7 +3976,7 @@
     },
     {
       "title": "Atomic‐Scale Structurally Locked 1T/2H‐MoS2/ZnS Z‐Scheme Heterojunctions for Prolonged Charge Kinetics and Dual‐Functional Photocatalysis",
-      "authors": "J Lee, Y Kim, BS Kwak, S Lee, G Kim, B Kim, H Jeong, Y Im, S Pandey, ...",
+      "authors": "Jeongjin Lee, Younghwon Kim, Byeong Sub Kwak, Suyeon Lee, Geunhyeong Kim, Buseong Kim, Harim Jeong, Younghwan Im, Sadanand Pandey, Hojun Moon, Misook Kang",
       "year": "",
       "venue": "Energy & Environmental Materials, e70493, 0",
       "num_citations": 0,
