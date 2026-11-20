@@ -1,16 +1,16 @@
 {
   "name": "Misook Kang",
   "affiliation": "Yeungnam University",
-  "citedby": 17133,
+  "citedby": 17146,
   "hindex": 67,
-  "i10index": 351,
-  "updated": "2026-11-18",
+  "i10index": 352,
+  "updated": "2026-11-20",
   "publications": [
     {
       "title": "Engineering Bifunctional NiFeCo-LDH/g-C3N4 heterojunctions for enhanced charge separation and sustainable hydrogen generation",
       "authors": "KK Mandari, B Bathula, M Kang",
       "year": "2027",
-      "venue": "Fuel 431, 142017, 2027",
+      "venue": "Fuel 431 (Part C), 142017, 2027",
       "num_citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:9DLIHnF0jcYC"
     },
@@ -39,14 +39,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:4e5Qn2KL_jwC"
     },
     {
-      "title": "Engineering a Fluorinated AlPO4 Interface: Toward High Initial Coulombic Efficiency and Stable Oxygen Redox in Li‐Rich Layered Oxide Cathodes",
-      "authors": "H Moon, H Jeong, Y Kim, B Kim, G Kim, S Lee, J Lee, J Kim, J Lee, Y Kim, ...",
-      "year": "2026",
-      "venue": "Advanced Functional Materials, e78762, 2026",
-      "num_citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:R-LXmdHK_14C"
-    },
-    {
       "title": "Atomic-Scale Structurally Locked 1T/2H-MoS2/ZnS Z-Scheme Heterojunctions for Prolonged Charge Kinetics and Dual‐Functional Photocatalysis",
       "authors": "J Lee, Y Kim, BS Kwak, S Lee, G Kim, B Kim, H Jeong, Y Im, S Pandey, ...",
       "year": "2026",
@@ -63,12 +55,28 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:Og1tA8FjbJAC"
     },
     {
+      "title": "Molecularly Informed Integration of Medicinal Plant Phytochemicals with Natural Biopolymers for Therapeutic Drug Delivery: From Interaction–Architecture–Release–Function …",
+      "authors": "N Thakur, M Kang, S Pandey",
+      "year": "2026",
+      "venue": "Journal of Drug Delivery Science and Technology, 109168, 2026",
+      "num_citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:n3vGvpFsckwC"
+    },
+    {
       "title": "Reprogramming Photocatalysis Through Self-Evolving Interfaces Toward Adaptive Reaction Systems",
       "authors": "H Jeong, H Moon, B Kim, G Kim, S Lee, J Lee, M Kang",
       "year": "2026",
       "venue": "Catalysts 16 (11), 1000, 2026",
       "num_citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:nPTYJWkExTIC"
+    },
+    {
+      "title": "Engineering a Fluorinated AlPO4 Interface: Toward High Initial Coulombic Efficiency and Stable Oxygen Redox in Li‐Rich Layered Oxide Cathodes",
+      "authors": "H Moon, H Jeong, Y Kim, B Kim, G Kim, S Lee, J Lee, J Kim, J Lee, Y Kim, ...",
+      "year": "2026",
+      "venue": "Advanced Functional Materials 36 (90), e78762, 2026",
+      "num_citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:R-LXmdHK_14C"
     },
     {
       "title": "Artificial intelligence guided nanomaterials for sustainable environmental remediation advances and future perspectives",
@@ -299,7 +307,7 @@
       "authors": "K Kasana, S Srivastava, T Chatterji, N Khanna, M Kang, S Pandey",
       "year": "2025",
       "venue": "Handbook of Lignin, 1591-1608, 2025",
-      "num_citations": 3,
+      "num_citations": 4,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:oPLKW5k6eA4C"
     },
     {
@@ -307,7 +315,7 @@
       "authors": "GR Reddy, M Kang",
       "year": "2025",
       "venue": "Advances in Industrial and Engineering Chemistry 1 (1), 21, 2025",
-      "num_citations": 30,
+      "num_citations": 31,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:z8nqeaKD1nsC"
     },
     {
@@ -395,7 +403,7 @@
       "authors": "N Parvin, D Merum, M Kang, SW Joo, JH Jung, TK Mandal",
       "year": "2025",
       "venue": "Journal of Materials Chemistry A 13 (30), 24320-24386, 2025",
-      "num_citations": 150,
+      "num_citations": 154,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:RtRctb2lSbAC"
     },
     {
@@ -411,7 +419,7 @@
       "authors": "KK Mandari, M Kang",
       "year": "2025",
       "venue": "Advances in Industrial and Engineering Chemistry 1 (1), 14, 2025",
-      "num_citations": 30,
+      "num_citations": 32,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:t-hv7AR41mYC"
     },
     {
@@ -443,7 +451,7 @@
       "authors": "RK Chava, M Kang",
       "year": "2025",
       "venue": "Nanomaterials 15 (13), 1000, 2025",
-      "num_citations": 9,
+      "num_citations": 10,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:mel-f30kHHgC"
     },
     {
@@ -539,7 +547,7 @@
       "authors": "S Sadr, A Hajjafari, N Lotfalizadeh, M Lotfalizadeh, SS Laein, AM Abbasi, ...",
       "year": "2025",
       "venue": "Journal of Drug Delivery Science and Technology 104, 106543, 2025",
-      "num_citations": 25,
+      "num_citations": 26,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:MIg0yeAD4ggC"
     },
     {
@@ -1403,7 +1411,7 @@
       "authors": "A Raja, P Rajasekaran, B Vishnu, K Selvakumar, JY Do, M Swaminathan, ...",
       "year": "2020",
       "venue": "Separation and Purification Technology 252, 117446, 2020",
-      "num_citations": 72,
+      "num_citations": 73,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:48xauSegjOkC"
     },
     {
@@ -1571,7 +1579,7 @@
       "authors": "S Pandey, JY Do, J Kim, M Kang",
       "year": "2020",
       "venue": "International Journal of Biological Macromolecules 143, 60-75, 2020",
-      "num_citations": 284,
+      "num_citations": 285,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:F1b5ZUV5XREC"
     },
     {
@@ -1739,7 +1747,7 @@
       "authors": "V Kumaravel, MD Imam, A Badreldin, RK Chava, JY Do, M Kang, ...",
       "year": "2019",
       "venue": "Catalysts 9 (3), 276, 2019",
-      "num_citations": 494,
+      "num_citations": 495,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:KbBQZpvPDL4C"
     },
     {
@@ -1795,7 +1803,7 @@
       "authors": "J Kim, JY Do, NK Park, JP Hong, M Kang",
       "year": "2018",
       "venue": "Separation and Purification Technology 207, 58-67, 2018",
-      "num_citations": 26,
+      "num_citations": 27,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:_5tno0g5mFcC"
     },
     {
@@ -2867,7 +2875,7 @@
       "authors": "HS Kim, M Kang",
       "year": "2013",
       "venue": "Journal of sol-gel science and technology 68 (1), 110-120, 2013",
-      "num_citations": 34,
+      "num_citations": 33,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:kRWSkSYxWN8C"
     },
     {
