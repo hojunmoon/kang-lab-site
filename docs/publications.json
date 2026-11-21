@@ -4,7 +4,7 @@
   "citedby": 17146,
   "hindex": 67,
   "i10index": 352,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "publications": [
     {
       "title": "Engineering Bifunctional NiFeCo-LDH/g-C3N4 heterojunctions for enhanced charge separation and sustainable hydrogen generation",
@@ -13,6 +13,30 @@
       "venue": "Fuel 431 (Part C), 142017, 2027",
       "num_citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:9DLIHnF0jcYC"
+    },
+    {
+      "title": "Rational Design of Ru-Pd Alloy-Modified Aurivillius-Phase Bismuth Titanate: A Synergistic Charge-Separation Strategy for Enhanced Photocatalytic Hydrogen Evolution",
+      "authors": "KK Mandari, B Bathula, S Pandey, RK Chava, M Kang",
+      "year": "2027",
+      "venue": "Ceramics International, 2027",
+      "num_citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:jlhcAiayVhoC"
+    },
+    {
+      "title": "Artificial intelligence guided nanomaterials for sustainable environmental remediation advances and future perspectives",
+      "authors": "S Duguna, AM Adem, MHA Elella, M Kang, S Pandey",
+      "year": "2027",
+      "venue": "Discover Materials, 2027",
+      "num_citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:qmtmRrLr0tkC"
+    },
+    {
+      "title": "Molecularly Informed Integration of Medicinal Plant Phytochemicals with Natural Biopolymers for Therapeutic Drug Delivery: From Interaction–Architecture–Release–Function …",
+      "authors": "N Thakur, M Kang, S Pandey",
+      "year": "2027",
+      "venue": "Journal of Drug Delivery Science and Technology 127 (Part 5), 109168, 2027",
+      "num_citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:n3vGvpFsckwC"
     },
     {
       "title": "Waste-to-wealth photocatalysis: Red mud-boosted g-C₃N₄/TiO₂ for enhanced hydrogen production and pollutant degradation",
@@ -55,14 +79,6 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:Og1tA8FjbJAC"
     },
     {
-      "title": "Molecularly Informed Integration of Medicinal Plant Phytochemicals with Natural Biopolymers for Therapeutic Drug Delivery: From Interaction–Architecture–Release–Function …",
-      "authors": "N Thakur, M Kang, S Pandey",
-      "year": "2026",
-      "venue": "Journal of Drug Delivery Science and Technology, 109168, 2026",
-      "num_citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:n3vGvpFsckwC"
-    },
-    {
       "title": "Reprogramming Photocatalysis Through Self-Evolving Interfaces Toward Adaptive Reaction Systems",
       "authors": "H Jeong, H Moon, B Kim, G Kim, S Lee, J Lee, M Kang",
       "year": "2026",
@@ -79,28 +95,12 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:R-LXmdHK_14C"
     },
     {
-      "title": "Artificial intelligence guided nanomaterials for sustainable environmental remediation advances and future perspectives",
-      "authors": "S Duguna, AM Adem, MHA Elella, M Kang, S Pandey",
-      "year": "2026",
-      "venue": "Discover Materials, 2026",
-      "num_citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:qmtmRrLr0tkC"
-    },
-    {
       "title": "TiO₂-g-C₃N₄-NiCu-rGO nanohybrid as a high-performance bifunctional electrocatalyst for hydrogen and oxygen evolution reactions",
       "authors": "A Raja, M Kang",
       "year": "2026",
       "venue": "Journal of Alloys and Compounds 1082, 191470, 2026",
       "num_citations": 0,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:1r-w4gtu6w8C"
-    },
-    {
-      "title": "Rational Design of Ru-Pd Alloy-Modified Aurivillius-Phase Bismuth Titanate: A Synergistic Charge-Separation Strategy for Enhanced Photocatalytic Hydrogen Evolution",
-      "authors": "KK Mandari, B Bathula, S Pandey, RK Chava, M Kang",
-      "year": "2026",
-      "venue": "Ceramics International, 2026",
-      "num_citations": 0,
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:jlhcAiayVhoC"
     },
     {
       "title": "Methane-pyrolysis-driven interfacial carbon reconstruction for durable high-kinetics silicon anodes with extension to end-of-life photovoltaic silicon",
@@ -3551,7 +3551,7 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:u_35RYKgDlwC"
     },
     {
-      "title": "Hydrogen Production from Methanol/Water Decomposition in a Liquid Photosystem Using the Anatase and Rutile Forms of Cu-TiO~ 2",
+      "title": "Hydrogen Production from Methanol/Water Decomposition in a Liquid Photosystem Using the Anatase and Rutile Forms of Cu-TiO2",
       "authors": "M Jeon, J Park, M Kang",
       "year": "2007",
       "venue": "JOURNAL OF INDUSTRIAL AND ENGINEERING CHEMISTRY-SEOUL- 13 (1), 84, 2007",
