@@ -1,10 +1,10 @@
 {
   "name": "Misook Kang",
   "affiliation": "Yeungnam University",
-  "citedby": 17146,
+  "citedby": 17147,
   "hindex": 67,
   "i10index": 352,
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "publications": [
     {
       "title": "Engineering Bifunctional NiFeCo-LDH/g-C3N4 heterojunctions for enhanced charge separation and sustainable hydrogen generation",
@@ -95,11 +95,19 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:R-LXmdHK_14C"
     },
     {
+      "title": "Synthesis, Characterization, and Computational Modeling of Hybrid Nanofluid Flow Over a Stretching Sheet With Joule Heating and Chemical Reaction",
+      "authors": "B Venkateswarlu, M Dhananjaya, SW Joo, PV Satya Narayana, ...",
+      "year": "2026",
+      "venue": "ZAMM‐Journal of Applied Mathematics and Mechanics/Zeitschrift für Angewandte …, 2026",
+      "num_citations": 0,
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:hNSvKAmkeYkC"
+    },
+    {
       "title": "TiO₂-g-C₃N₄-NiCu-rGO nanohybrid as a high-performance bifunctional electrocatalyst for hydrogen and oxygen evolution reactions",
       "authors": "A Raja, M Kang",
       "year": "2026",
       "venue": "Journal of Alloys and Compounds 1082, 191470, 2026",
-      "num_citations": 0,
+      "num_citations": 1,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:1r-w4gtu6w8C"
     },
     {
@@ -307,7 +315,7 @@
       "authors": "K Kasana, S Srivastava, T Chatterji, N Khanna, M Kang, S Pandey",
       "year": "2025",
       "venue": "Handbook of Lignin, 1591-1608, 2025",
-      "num_citations": 4,
+      "num_citations": 3,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:oPLKW5k6eA4C"
     },
     {
@@ -419,7 +427,7 @@
       "authors": "KK Mandari, M Kang",
       "year": "2025",
       "venue": "Advances in Industrial and Engineering Chemistry 1 (1), 14, 2025",
-      "num_citations": 32,
+      "num_citations": 33,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:t-hv7AR41mYC"
     },
     {
@@ -459,7 +467,7 @@
       "authors": "A Raja, RK Chava, M Kang",
       "year": "2025",
       "venue": "Chemical Engineering Journal 513, 163000, 2025",
-      "num_citations": 15,
+      "num_citations": 14,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:Zh0EY9V9P6UC"
     },
     {
@@ -531,7 +539,7 @@
       "authors": "H Shin, J Lee, D Jang, Y Kim, H Jeong, M Kang",
       "year": "2025",
       "venue": "Materials Today Advances 25, 100560, 2025",
-      "num_citations": 14,
+      "num_citations": 15,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:c1e4I3QdEKYC"
     },
     {
@@ -547,7 +555,7 @@
       "authors": "S Sadr, A Hajjafari, N Lotfalizadeh, M Lotfalizadeh, SS Laein, AM Abbasi, ...",
       "year": "2025",
       "venue": "Journal of Drug Delivery Science and Technology 104, 106543, 2025",
-      "num_citations": 26,
+      "num_citations": 25,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:MIg0yeAD4ggC"
     },
     {
@@ -939,7 +947,7 @@
       "authors": "S Pandey, E Makhado, S Kim, M Kang",
       "year": "2023",
       "venue": "Environmental Research 217, 114909, 2023",
-      "num_citations": 141,
+      "num_citations": 142,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:BrOSOlqYqPUC"
     },
     {
@@ -971,7 +979,7 @@
       "authors": "KK Mandari, N Son, T Kim, M Kang",
       "year": "2022",
       "venue": "Journal of Alloys and Compounds 927, 166886, 2022",
-      "num_citations": 34,
+      "num_citations": 35,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:raTqNPD5sRQC"
     },
     {
@@ -1499,7 +1507,7 @@
       "authors": "S Pandey, C De Klerk, J Kim, M Kang, E Fosso-Kankeu",
       "year": "2020",
       "venue": "Polymers 12 (6), 1418, 2020",
-      "num_citations": 65,
+      "num_citations": 64,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:buQ7SEKw-1sC"
     },
     {
@@ -1579,7 +1587,7 @@
       "authors": "S Pandey, JY Do, J Kim, M Kang",
       "year": "2020",
       "venue": "International Journal of Biological Macromolecules 143, 60-75, 2020",
-      "num_citations": 285,
+      "num_citations": 284,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:F1b5ZUV5XREC"
     },
     {
@@ -1595,7 +1603,7 @@
       "authors": "R Abirami, CR Kalaiselvi, L Kungumadevi, TS Senthil, M Kang",
       "year": "2020",
       "venue": "Journal of Solid State Chemistry 281, 121019, 2020",
-      "num_citations": 103,
+      "num_citations": 102,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:gVv57TyPmFsC"
     },
     {
@@ -1747,7 +1755,7 @@
       "authors": "V Kumaravel, MD Imam, A Badreldin, RK Chava, JY Do, M Kang, ...",
       "year": "2019",
       "venue": "Catalysts 9 (3), 276, 2019",
-      "num_citations": 495,
+      "num_citations": 496,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:KbBQZpvPDL4C"
     },
     {
@@ -2059,7 +2067,7 @@
       "authors": "BS Kwak, JY Do, NK Park, M Kang",
       "year": "2017",
       "venue": "Scientific reports 7 (1), 16370, 2017",
-      "num_citations": 50,
+      "num_citations": 51,
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=JHrp3gcAAAAJ&citation_for_view=JHrp3gcAAAAJ:PVjk1bu6vJQC"
     },
     {
